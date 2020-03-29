@@ -156,6 +156,10 @@ form.validate-error{
 
 /* sqaures */
 
+body{
+  overflow: hidden;
+}
+
 .squares li{
   width: 40px;
   height: 40px;
@@ -163,4 +167,19 @@ form.validate-error{
   display: block;
   position: absolute;
   bottom: -40px;
+  animation: squares 1s infinite alternate;
+}
+
+@keyframes squares{
+  form{
+    opacity: 0;
+    transform: translateY(0);
+  }
+  50%{
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-900px) rotate(960deg);
+  }
 }
