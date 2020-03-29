@@ -121,7 +121,7 @@ form .btn-login{
 
 .form-hide{
   animation: move-down;
-  animation-duration: 500ms;
+  animation-duration: 400ms;
   animation-fill-mode: forwards;
 }
 
