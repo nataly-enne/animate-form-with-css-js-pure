@@ -116,3 +116,19 @@ form .btn-login{
     transform: translate(0%);
   }
 }
+
+/******** SUMIR COM O FORM AO CLICAR EM LOGIN ********/
+
+.form-hide{
+  animation: move-down;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes move-down{
+  from{
+    transform: translateY(0);
+  } to{
+    transform: translateY(100vh);
+  }
+}
